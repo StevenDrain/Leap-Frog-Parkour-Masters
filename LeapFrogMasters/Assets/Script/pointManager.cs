@@ -7,6 +7,11 @@ public class pointManager : MonoBehaviour
     public int p1Points = 0;
     public int p2Points = 0;
    
+    public void Update()
+    {
+        
+    }
+
     public void AddPointP1(){
         p1Points += 1;
         Debug.Log("Player 1 has " + p1Points + " points");

@@ -11,6 +11,9 @@ public class ScoreManager : MonoBehaviour
     public TextMeshProUGUI p1PointsText;
     public TextMeshProUGUI p2PointsText;
 
+    public TextMeshProUGUI p1WinText;
+    public TextMeshProUGUI p2WinText;
+
     public void OnTriggerEnter(Collider other)
     {
         
@@ -27,5 +30,17 @@ public class ScoreManager : MonoBehaviour
            
         }
     }
+    public void Update()
+    {
+        if (pointsManager.p1Points >= 4)
+        {
+            p1WinText.gameObject.SetActive(true);
+        }
+        if (pointsManager.p2Points >= 4)
+        {
+            p2WinText.gameObject.SetActive(true);
+        }
+    }
+    
     
 }

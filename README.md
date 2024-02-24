@@ -3,3 +3,4 @@
 * I added a seperate object above the players to count the leap frog points
 * I have two scripts managing the point system so they can be displayed correctly
 * I made it so you can easily see what is going on in the arena  by lowering the walls but made the colliders bigger
+ * I also added the score manager and made it so if you get 4 points it says which player wins
