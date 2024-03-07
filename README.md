@@ -7,3 +7,6 @@
 
  *added collectables and an inventory system
 
+ *added an enemy that goes after player
+ *added an enemy that goes after player 2
+
